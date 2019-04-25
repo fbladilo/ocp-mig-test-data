@@ -69,3 +69,4 @@
         - restores.velero.io
         includedNamespaces:
         - '*'
+  when: delete_velero_restore
